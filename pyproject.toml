@@ -58,6 +58,34 @@ dev = [
     "pytest-mock",
     "tomli",
 ]
+all = [
+    "numpy",
+    "pandas",
+    "requests",
+    "xarray",
+    "zarr",
+    "ocf-data-sampler",
+    "ocf_ml_metrics>=0.0.11",
+    "huggingface-hub",
+    "pydantic==2.5.3",
+    "pyyaml",
+    "boto3",
+    "python-dotenv",
+    "netcdf4",
+    "h5netcdf",
+    "h5py",
+    "pvlive-api",
+    "black",
+    "ruff",
+    "pre-commit",
+    "setuptools",
+    "wheel",
+    "twine",
+    "pytest",
+    "pytest-cov",
+    "pytest-mock",
+    "tomli",
+]
 
 [project.scripts]
 open-data-pvnet = "open_data_pvnet.main:main"
@@ -81,5 +109,3 @@ readme = {file = "README.md", content-type = "text/markdown"}
 
 [tool.setuptools.package-data]
 "open_data_pvnet" = [".env.local"]
-
-
